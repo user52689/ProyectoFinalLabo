@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Pet-Clinic-App" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Pet-Clinic-App" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Pet-Clinic-App" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="AppManager.cpp" />
+		<Unit filename="AppManager.h" />
+		<Unit filename="Archivo.cpp" />
+		<Unit filename="Archivo.h" />
+		<Unit filename="Cliente.cpp" />
+		<Unit filename="Cliente.h" />
+		<Unit filename="ClienteArchivo.h" />
+		<Unit filename="ClienteManager.h" />
+		<Unit filename="ClsFecha.cpp" />
+		<Unit filename="ClsFecha.h" />
+		<Unit filename="Consultas.cpp" />
+		<Unit filename="Consultas.h" />
+		<Unit filename="ConsultasArchivo.h" />
+		<Unit filename="ConsultasManager.h" />
+		<Unit filename="Interfaz.cpp" />
+		<Unit filename="Interfaz.h" />
+		<Unit filename="Mascota.cpp" />
+		<Unit filename="Mascota.h" />
+		<Unit filename="MascotaArchivo.cpp" />
+		<Unit filename="MascotaArchivo.h" />
+		<Unit filename="MascotaManager.cpp" />
+		<Unit filename="MascotaManager.h" />
+		<Unit filename="Persona.cpp" />
+		<Unit filename="Persona.h" />
+		<Unit filename="Veterinario.cpp" />
+		<Unit filename="Veterinario.h" />
+		<Unit filename="VeterinarioArchivo.h" />
+		<Unit filename="VeterinarioManager.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
