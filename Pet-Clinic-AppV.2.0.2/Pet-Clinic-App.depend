@@ -321,3 +321,115 @@
 	<iostream>
 	<ctime>
 
+1717824053 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\archivo.cpp
+	"Archivo.h"
+
+1717972859 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\archivo.h
+	<string>
+	<cstdio>
+
+1717824053 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\cliente.cpp
+	<iostream>
+	"Cliente.h"
+
+1717972875 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\cliente.h
+	"Persona.h"
+
+1717824053 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\persona.h
+
+1717824053 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\consultas.cpp
+	<cstring>
+	"Consultas.h"
+
+1717824053 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\consultas.h
+
+1718112755 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\fecha.cpp
+	<iostream>
+	<string>
+	"Fecha.h"
+
+1718112761 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\fecha.h
+	<iostream>
+	<ctime>
+
+1718108373 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\fechahora.cpp
+	<iostream>
+	"FechaHora.h"
+
+1718108343 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\fechahora.h
+	"Fecha.h"
+	"Hora.h"
+
+1717824053 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\interfaz.cpp
+	"Interfaz.h"
+
+1717824053 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\interfaz.h
+	<iostream>
+	<string>
+	"rlutil.h"
+
+1717824053 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1717974158 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\main.cpp
+	<iostream>
+	"Interfaz.h"
+
+1718112203 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\mascota.cpp
+	<string>
+	"Mascota.h"
+
+1718112139 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\mascota.h
+	"Fecha.h"
+	<string>
+
+1718018749 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.0\clsfecha.h
+	<ctime>
+	<iostream>
+
+1717824053 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\mascotamanager.cpp
+	<string>
+	<iostream>
+	"MascotaManager.h"
+	"Mascota.h"
+
+1717824053 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\mascotamanager.h
+	"Mascota.h"
+	"MascotaArchivo.h"
+
+1717824053 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\mascotaarchivo.h
+	"Mascota.h"
+	"Archivo.h"
+
+1717824053 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\persona.cpp
+	<iostream>
+	<cstring>
+	"Persona.h"
+
+1717824053 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\veterinario.cpp
+	"Veterinario.h"
+
+1717824053 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\veterinario.h
+	"Persona.h"
+
+1718112816 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\hora.h
+	<iostream>
+	<ctime>
+	<string>
+
+1718112796 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.2.0.2\hora.cpp
+	<iostream>
+	<string>
+	"Hora.h"
+
