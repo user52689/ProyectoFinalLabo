@@ -1,0 +1,270 @@
+# depslib dependency file v1.0
+1715544914 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\archivo.cpp
+	"Archivo.h"
+
+1717990387 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\archivo.h
+	<string>
+	<cstdio>
+
+1718062816 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\cliente.cpp
+	<iostream>
+	"Cliente.h"
+
+1718054287 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\cliente.h
+	"Persona.h"
+
+1718071809 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\persona.h
+	<string>
+
+1718076706 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\appmanager.cpp
+	<string>
+	<iostream>
+	<cstring>
+	"AppManager.h"
+	"Interfaz.h"
+
+1718027541 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\appmanager.h
+	"ClienteManager.h"
+
+1718054365 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\clientemanager.h
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1718029098 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\clientearchivo.h
+	"Cliente.h"
+	"Archivo.h"
+
+1718071809 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\clientearchivo.cpp
+	"ClienteArchivo.h"
+
+1718076200 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\interfaz.cpp
+	"Interfaz.h"
+	"rlutil.h"
+
+1718076200 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\interfaz.h
+	<iostream>
+	<string>
+	"rlutil.h"
+
+1697412268 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1718074257 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\main.cpp
+	<iostream>
+	"Interfaz.h"
+	"AppManager.h"
+
+1718060559 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\persona.cpp
+	<iostream>
+	<string>
+	<iostream>
+	<cstdlib>
+	"Persona.h"
+
+1718071809 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\clientemanager.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"ClienteManager.h"
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1718115975 source:c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\appmanager.cpp
+	<string>
+	<iostream>
+	<cstring>
+	"AppManager.h"
+	"Interfaz.h"
+
+1718115975 c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\appmanager.h
+	"ClienteManager.h"
+
+1718115975 c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\clientemanager.h
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1718125364 c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\cliente.h
+	"Persona.h"
+
+1718123229 c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\persona.h
+	<string>
+
+1718115975 c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\clientearchivo.h
+	"Cliente.h"
+	"Archivo.h"
+
+1718115975 c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\archivo.h
+	<string>
+	<cstdio>
+
+1718115975 c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\interfaz.h
+	<iostream>
+	<string>
+	"rlutil.h"
+
+1718115975 c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1718115975 source:c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\archivo.cpp
+	"Archivo.h"
+
+1718126140 source:c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\cliente.cpp
+	<iostream>
+	"Cliente.h"
+
+1718120096 source:c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\clientearchivo.cpp
+	"ClienteArchivo.h"
+
+1718125823 source:c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\clientemanager.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"ClienteManager.h"
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1718115975 source:c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\interfaz.cpp
+	"Interfaz.h"
+	"rlutil.h"
+
+1718115975 source:c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\main.cpp
+	<iostream>
+	"Interfaz.h"
+	"AppManager.h"
+
+1718126623 source:c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\persona.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<cstring>
+	"Persona.h"
+	"Funciones.h"
+
+1718126140 c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\funciones.h
+
+1718115975 source:c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\appmanager.cpp
+	<string>
+	<iostream>
+	<cstring>
+	"AppManager.h"
+	"Interfaz.h"
+
+1718159736 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\appmanager.h
+	"MascotaManager.h"
+	"ClienteManager.h"
+
+1718115975 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\clientemanager.h
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1718125364 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\cliente.h
+	"Persona.h"
+
+1718123229 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\persona.h
+	<string>
+
+1718115975 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\clientearchivo.h
+	"Cliente.h"
+	"Archivo.h"
+
+1718159736 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\archivo.h
+	<string>
+	<cstdio>
+
+1718115975 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\interfaz.h
+	<iostream>
+	<string>
+	"rlutil.h"
+
+1718115975 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1718115975 source:c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\archivo.cpp
+	"Archivo.h"
+
+1718126140 source:c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\cliente.cpp
+	<iostream>
+	"Cliente.h"
+
+1718120096 source:c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\clientearchivo.cpp
+	"ClienteArchivo.h"
+
+1718154713 source:c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\clientemanager.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"ClienteManager.h"
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1718115975 source:c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\interfaz.cpp
+	"Interfaz.h"
+	"rlutil.h"
+
+1718115975 source:c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\main.cpp
+	<iostream>
+	"Interfaz.h"
+	"AppManager.h"
+
+1718150179 source:c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\funciones.cpp
+	<iostream>
+
+1718126623 source:c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\persona.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<cstring>
+	"Persona.h"
+	"Funciones.h"
+
+1718126140 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\funciones.h
+
+1717898685 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\mascotamanager.h
+	"Mascota.h"
+	"MascotaArchivo.h"
+
+1718159831 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\mascota.h
+	"Fecha.h"
+	<string>
+
+1717909844 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\mascotaarchivo.h
+	"Mascota.h"
+	"Archivo.h"
+
+1718115975 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\fecha.h
+	<iostream>
+	<ctime>
+
