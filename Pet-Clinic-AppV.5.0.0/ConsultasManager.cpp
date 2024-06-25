@@ -6,8 +6,9 @@
 using namespace std;
 
 void ConsultasManager::menu(){
-    int opcion;
     Interfaz interfaz;
+
+    int opcion;
 
     do {
         system("cls");
@@ -63,27 +64,44 @@ void ConsultasManager::menu(){
                 break;
             default:
                 system("cls");
+                menu();
                 break;
         }
+        system("pause");
     } while (opcion != 0);
 }
 void ConsultasManager::mostrar(Consultas turno){
+    Interfaz interfaz;
+
+    interfaz.mostrarTitulo();
+
     if (turno.getEstado()) {
+        interfaz.moverCursor(30, 16);
         cout << "Numero de turno: " << turno.getNumeroTurno() << endl;
+        interfaz.moverCursor(30, 17);
         cout << "Fecha y Hora de registro: " << turno.getFechaHora().mostrarFechaHora() << endl;
-        cout << "Legajo veterinario asignado: " << turno.getLegajoVeterinarioAsignado() << endl;
+        interfaz.moverCursor(30, 18);        cout << "Legajo veterinario asignado: " << turno.getLegajoVeterinarioAsignado() << endl;
+        interfaz.moverCursor(30, 19);
         cout << "Numero mascota: " << turno.getMascotaInvolucrada() << endl;
-        cout << "Diagnostico y tratamiento: " << turno.getDiagnosticoTratamiento() << endl;
+        interfaz.moverCursor(30, 20);        cout << "Diagnostico y tratamiento: " << turno.getDiagnosticoTratamiento() << endl;
+        interfaz.moverCursor(30, 21);
         cout << "Importe: " << turno.getImporte() << endl;
+        interfaz.moverCursor(30, 22);
         cout << "Estado: " << (turno.getEstado() ? "Activo" : "Inactivo") << endl;
+        interfaz.moverCursor(30, 23);
         cout << "-------------------------------" << endl;
     } else {
-        cout << "El cliente esta inactivo" << endl;
+        interfaz.moverCursor(30, 16);
+        cout << "El cliente no esta registrado." << endl;
     }
 }
 void ConsultasManager::buscarTurno(){
+    Interfaz interfaz;
+
     int index, numero;
     Consultas turno;
+
+    interfaz.mostrarTitulo();
 
     cout << "Ingrese el numero de turno a buscar: ";
     cin >> numero;
@@ -121,8 +139,6 @@ void ConsultasManager::cargarTurno(){
     cout << "Numero de Turno: " << numeroTurno << endl;
     turno.setNumeroTurno(numeroTurno);
 
-    fechaHoraRegistro = FechaHora();
-
     cout<<"Legajo veterinario asignado: ";
     cin>>legajoVeterinarioAsignado;
     turno.setLegajoVeterinarioAsignado(legajoVeterinarioAsignado);
@@ -131,6 +147,7 @@ void ConsultasManager::cargarTurno(){
     cin>>mascotaInvolucrada;
     turno.setMascotaInvolucrada(mascotaInvolucrada);
 
+    cin.ignore();
     cout<<"Diagnostico y tratamiento: ";
     getline(cin, diagnosticoTratamiento);
     turno.setDiagnosticoTratamiento(diagnosticoTratamiento.c_str());
@@ -138,6 +155,9 @@ void ConsultasManager::cargarTurno(){
     cout<<"Importe de consulta: ";
     cin>>importe;
     turno.setImporte(importe);
+
+    fechaHoraRegistro = FechaHora();
+    turno.setFechaHora(fechaHoraRegistro);
 
     turno.setEstado(estado);
 

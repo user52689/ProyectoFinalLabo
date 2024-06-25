@@ -3,7 +3,6 @@
 class Configuracion
 {
 public:
-
     void copiaSeguridadMascotaBK();
     void listarCopiaSeguridadMascotaBK();
     void restaurarArchivoMascotaBK();

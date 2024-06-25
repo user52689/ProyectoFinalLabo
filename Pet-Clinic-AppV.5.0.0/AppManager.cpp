@@ -4,6 +4,7 @@
 #include "AppManager.h"
 #include "Interfaz.h"
 #include "Configuracion.h"
+#include "Reporte.h"
 
 using namespace std;
 
@@ -32,13 +33,15 @@ void AppManager::menuPrincipal(){
             interfaz.moverCursor(30, 21);
             cout << "5- MENU CONFIGURACION " << endl;
             interfaz.moverCursor(30, 22);
-            cout << "--------------------------------" << endl;
+            cout << "6- MENU REPORTES " << endl;
             interfaz.moverCursor(30, 23);
-            cout << "0- SALIR " << endl;            interfaz.moverCursor(30, 24);
             cout << "--------------------------------" << endl;
-            interfaz.moverCursor(30, 25);
+            interfaz.moverCursor(30, 24);
+            cout << "0- SALIR " << endl;            interfaz.moverCursor(30, 25);
+            cout << "--------------------------------" << endl;
+            interfaz.moverCursor(30, 26);
             cout << "Opcion: " << endl;
-            interfaz.moverCursor(38, 25);
+            interfaz.moverCursor(38, 26);
             cin >> opcion;
 
             switch(opcion){
@@ -62,6 +65,10 @@ void AppManager::menuPrincipal(){
                 system("cls");
                 menuConfiguracion();
                 break;
+            case 6:
+                system("cls");
+
+                break;
             case 0:
                 system("cls");
                 interfaz.mostrarTitulo();
@@ -72,6 +79,7 @@ void AppManager::menuPrincipal(){
                 system("cls");
                 break;
             }
+            system("pause");
     }while(opcion != 0);
 
 }
@@ -121,7 +129,7 @@ void AppManager::menuConfiguracion(){
         cout << "-------------------------------" << endl;
         interfaz.moverCursor(30, 32);
         cout << "Opcion: " << endl;
-        interfaz.moverCursor(38, 33);
+        interfaz.moverCursor(38, 32);
         cin >> opcion;
 
         switch(opcion){
@@ -178,9 +186,7 @@ void AppManager::menuConfiguracion(){
             menuPrincipal();
         default:
             system("cls");
-            interfaz.mostrarTitulo();
-            interfaz.moverCursor(45, 20);
-            cout << "Opcion no valida. Intente nuevamente." << endl;
+            menuConfiguracion();
             break;
         }
         system("pause");

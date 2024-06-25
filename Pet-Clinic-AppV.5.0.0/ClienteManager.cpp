@@ -8,13 +8,81 @@
 
 using namespace std;
 
+void ClienteManager::menu() {
+    int opcion;
+    Interfaz interfaz;
+
+    do {
+        system("cls");
+        interfaz.mostrarTitulo();
+        interfaz.moverCursor(30, 15);
+        cout << "--------- MENU CLIENTES -------" << endl;
+        interfaz.moverCursor(30, 16);
+        cout << "-------------------------------" << endl;
+        interfaz.moverCursor(30, 17);
+        cout << "1- CARGAR CLIENTE" << endl;
+        interfaz.moverCursor(30, 18);
+        cout << "2- BUSCAR CLIENTE POR NUMERO" << endl;
+        interfaz.moverCursor(30, 19);
+        cout << "3- LISTAR TODOS LOS CLIENTES" << endl;
+        interfaz.moverCursor(30, 20);
+        cout << "4- MODIFICAR DIRECCION" << endl;
+        interfaz.moverCursor(30, 21);
+        cout << "5- ELIMINAR CLIENTE" << endl;
+        interfaz.moverCursor(30, 22);
+        cout << "-------------------------------" << endl;
+        interfaz.moverCursor(30, 23);
+        cout << "0- SALIR" << endl;
+        interfaz.moverCursor(30, 24);
+        cout << "-------------------------------" << endl;
+        interfaz.moverCursor(30, 25);
+        cout << "Opcion: ";
+        interfaz.moverCursor(38, 26);
+        cin >> opcion;
+
+        switch (opcion) {
+            case 1:
+                system("cls");
+                cargarCliente();
+                break;
+            case 2:
+                system("cls");
+                buscarCliente();
+                break;
+            case 3:
+                system("cls");
+                listarClientes();
+                break;
+            case 4:
+                system("cls");
+                modificarDireccionCliente();
+                break;
+            case 5:
+                system("cls");
+                eliminarCliente();
+                break;
+            case 0:
+                system("cls");
+                break;
+            default:
+                system("cls");
+                menu();
+                break;
+        }
+        system("pause");
+    } while (opcion != 0);
+}
 void ClienteManager::cargarCliente() {
     int numeroCliente;
+    Interfaz interfaz;
 
     ClienteArchivo clienteArchivo;
 
     int cantidadRegistros = clienteArchivo.getCantidadRegistros();// Asignacion automatica del numero de cliente
     numeroCliente = cantidadRegistros + 1;
+
+    interfaz.mostrarTitulo();
+    interfaz.moverCursor(30, 15);
 
     cout << "Numero de Cliente: " << numeroCliente << endl;
 
@@ -64,16 +132,28 @@ void ClienteManager::listarClientes() {
     }
 }
 void ClienteManager::mostrar(Cliente cliente) {
+    Interfaz interfaz;
     if (cliente.getEstado()) {
+        interfaz.mostrarTitulo();
+        interfaz.moverCursor(30, 15);
         cout << "Numero de Cliente: " << cliente.getNumeroCliente() << endl;
+        interfaz.moverCursor(30, 16);
         cout << "Nombre: " << cliente.getNombre() << endl;
+        interfaz.moverCursor(30, 17);
         cout << "Telefono: " << cliente.getTelefono() << endl;
+        interfaz.moverCursor(30, 18);
         cout << "Email: " << cliente.getEmail() << endl;
+        interfaz.moverCursor(30, 19);
         cout << "Direccion: " << cliente.getDireccion() << endl;
+        interfaz.moverCursor(30, 20);
         cout << "Estado: " << (cliente.getEstado() ? "Activo" : "Inactivo") << endl;
+        interfaz.moverCursor(30, 21);
         cout << "-------------------------------" << endl;
     } else {
+        interfaz.mostrarTitulo();
+        interfaz.moverCursor(30, 15);
         cout << "El cliente esta inactivo" << endl;
+        system("pause");
     }
 }
 
@@ -148,66 +228,4 @@ void ClienteManager::modificarDireccionCliente() {
     } else {
         cout << "El cliente no existe." << endl;
     }
-}
-void ClienteManager::menu() {
-    int opcion;
-    Interfaz interfaz;
-
-    do {
-        system("cls");
-        interfaz.mostrarTitulo();
-        interfaz.moverCursor(30, 15);
-        cout << "--------- MENU CLIENTES -------" << endl;
-        interfaz.moverCursor(30, 16);
-        cout << "-------------------------------" << endl;
-        interfaz.moverCursor(30, 17);
-        cout << "1- CARGAR CLIENTE" << endl;
-        interfaz.moverCursor(30, 18);
-        cout << "2- BUSCAR CLIENTE POR NUMERO" << endl;
-        interfaz.moverCursor(30, 19);
-        cout << "3- LISTAR TODOS LOS CLIENTES" << endl;
-        interfaz.moverCursor(30, 20);
-        cout << "4- MODIFICAR DIRECCION" << endl;
-        interfaz.moverCursor(30, 21);
-        cout << "5- ELIMINAR CLIENTE" << endl;
-        interfaz.moverCursor(30, 22);
-        cout << "-------------------------------" << endl;
-        interfaz.moverCursor(30, 23);
-        cout << "0- SALIR" << endl;
-        interfaz.moverCursor(30, 24);
-        cout << "-------------------------------" << endl;
-        interfaz.moverCursor(30, 25);
-        cout << "Opcion: ";
-        interfaz.moverCursor(38, 26);
-        cin >> opcion;
-
-        switch (opcion) {
-            case 1:
-                system("cls");
-                cargarCliente();
-                break;
-            case 2:
-                system("cls");
-                buscarCliente();
-                break;
-            case 3:
-                system("cls");
-                listarClientes();
-                break;
-            case 4:
-                system("cls");
-                modificarDireccionCliente();
-                break;
-            case 5:
-                system("cls");
-                eliminarCliente();
-                break;
-            case 0:
-                system("cls");
-                break;
-            default:
-                system("cls");
-                break;
-        }
-    } while (opcion != 0);
 }
