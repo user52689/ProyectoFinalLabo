@@ -10,6 +10,8 @@
 using namespace std;
 
 Mascota MascotaManager::crearMascota(){
+    Interfaz interfaz;
+
     int especie, numeroCliente;
     Fecha fechaNacimiento;
     FechaHora fechaHoraRegistro;
@@ -20,23 +22,30 @@ Mascota MascotaManager::crearMascota(){
     ClienteArchivo clienteArchivo;
 
     ///asignacion del numero de mascota automatico
+    interfaz.mostrarTitulo();
+    interfaz.moverCursor(30, 16);
     int cantidadRegistros = mascotaArchivo.getCantidadRegistros();
     int numeroMascota = cantidadRegistros + 1;
-    cout << "numero de mascota " << numeroMascota << endl;
+    cout << "Numero de mascota " << numeroMascota << endl;
 
 
     cin.ignore();
+    interfaz.moverCursor(30, 17);
     cout << "Ingrese nombre: ";
     getline(cin, nombre);
 
     do {
+        interfaz.moverCursor(30, 18);
         cout << "Ingrese el numero de la especie [1-8]: ";
+        interfaz.moverCursor(30, 19);
         cout << "[1] Perro, [2] Gato, [3] Ave, [4] Roedor, [5] Reptil, [6] Pez, [7] Exotico [8] Otro ";
-       cin >> especie;
+        cin >> especie;
         if(especie < 1 || especie > 8) {
+            interfaz.moverCursor(30, 18);
             cout << "Especie Incorrecta. Debe ser un numero entre 1 y 8." << endl;
         }
     } while(especie < 1 || especie > 8);
+        interfaz.moverCursor(30, 19);
 
     cout << "Ingrese la fecha de Nacimiento: " << endl;
     fechaNacimiento.cargarFecha();
@@ -44,13 +53,15 @@ Mascota MascotaManager::crearMascota(){
     fechaHoraRegistro = FechaHora();
 
     while (true) {
+        interfaz.moverCursor(30, 20);                                                 ///Falta acomodar la linea en la que aparece por pantalla 57 - 64
         cout << "Ingrese el numero de cliente: ";
         cin >> numeroCliente;
 
         if (clienteArchivo.isExist(numeroCliente)) {
             break;
         } else {
-            cout << "El numero de cliente no existe. Por favor, ingrese otro numero." <<endl;
+            interfaz.moverCursor(30, 23);
+            cout << "El cliente no esta registrado." <<endl;
         }
     }
 
@@ -58,37 +69,56 @@ Mascota MascotaManager::crearMascota(){
 }
 
 void MascotaManager::mostrar(Mascota mascota){
-    if (mascota.getEstado()){
-        cout << "Numero de Mascota: " << mascota.getNumeroMascota() << endl;
-        cout << "Nombre: " << mascota.getNombre();
-        cout << "Especie: " << mascota.getEspecie() << endl;
-        cout << "Fecha de Nacimiento: " << mascota.getAnioNacimiento().mostrarFecha() << endl;
-        cout << "Numero de Cliente: " << mascota.getNumeroCliente()<< endl;
-        cout << "Estado: " << (mascota.getEstado() ? "Disponible" : "No disponible") << endl;
-        cout << "-------------------------------" << endl;
-        cout << "-------------------------------" << endl;
+    Interfaz interfaz;
 
+    if (mascota.getEstado()){
+        interfaz.mostrarTitulo();
+        interfaz.moverCursor(30, 16);
+        cout << "Numero de Mascota: " << mascota.getNumeroMascota() << endl;
+        interfaz.moverCursor(30, 17);
+        cout << "Nombre: " << mascota.getNombre();
+        interfaz.moverCursor(30, 18);
+        cout << "Especie: " << mascota.getEspecie() << endl;
+        interfaz.moverCursor(30, 19);
+        cout << "Fecha de Nacimiento: " << mascota.getAnioNacimiento().mostrarFecha() << endl;
+        interfaz.moverCursor(30, 20);
+        cout << "Numero de Cliente: " << mascota.getNumeroCliente()<< endl;
+        interfaz.moverCursor(30, 21);
+        cout << "Estado: " << (mascota.getEstado() ? "Disponible" : "No disponible") << endl;
+        interfaz.moverCursor(30, 22);
+        cout << "-------------------------------" << endl;
     }else{
-        cout<<"La mascota fue eliminada, no esta activa en el archivo."<<endl;
+        interfaz.moverCursor(30, 16);
+        cout<<"La mascota no esta registrada."<<endl;
     }
 }
 
 void MascotaManager::cargarMascota(){
+    Interfaz interfaz;
+
     MascotaArchivo mascotaArchivo;
     Mascota mascota;
     mascota = crearMascota();
 
+    interfaz.mostrarTitulo();
     if(mascotaArchivo.guardar(mascota)){
-        cout<< "Mascota guardada con exito!!" <<endl;
+        interfaz.moverCursor(30, 16);
+        cout<< "Mascota guardada con exito!" <<endl;
     }else{
-        cout<< "No se pudo encontrar la Mascota :( " <<endl;
+        interfaz.moverCursor(30, 16);
+        cout<< "No se pudo cargar la Mascota." <<endl;
 
     }
 }
 
-void MascotaManager::buscarMascota() {
+void MascotaManager::buscarMascota(){
+    Interfaz interfaz;
+
     int index, numero;
     Mascota mascota;
+
+    interfaz.mostrarTitulo();
+    interfaz.moverCursor(30, 16);
 
     cout << "Ingrese el numero de mascota a buscar: " << endl;
     cin >> numero;
@@ -100,16 +130,22 @@ void MascotaManager::buscarMascota() {
         if (mascota.getEstado()) {
             mostrar(mascota);
         } else {
-            cout << "La mascota esta desactivada" << endl;
+            interfaz.moverCursor(30, 17);
+            cout << "La mascota fue eliminada." << endl;
         }
     } else {
-        cout << "La mascota no se encuentra :(" << endl;
+        interfaz.moverCursor(30, 17);
+        cout << "La mascota no esta registrada." << endl;
     }
 }
 
 void MascotaManager::listarMascotas() {
+    Interfaz interfaz;
     int cantidad = _mascotaArchivo.getCantidadRegistros();
 
+    interfaz.mostrarTitulo();
+
+    interfaz.moverCursor(30, 16);
     for (int i = 0; i < cantidad; i++) {
         Mascota mascota = _mascotaArchivo.leer(i);
         mostrar(mascota);
@@ -117,7 +153,11 @@ void MascotaManager::listarMascotas() {
 }
 
 void MascotaManager::eliminarMascota() {
+    Interfaz interfaz;
     int numeroMascota, index;
+
+    interfaz.mostrarTitulo();
+    interfaz.moverCursor(30, 16);
 
     cout << "Ingrese numero de mascota que quiere eliminar: ";
     cin >> numeroMascota;
@@ -130,31 +170,47 @@ void MascotaManager::eliminarMascota() {
 
         mostrar(mascota);
 
+        interfaz.moverCursor(30, 17);
         cout << "¿Esta seguro que quiere eliminar la mascota? [1-SI] || [0-NO] ";
         cin >> eliminar;
 
+        system("cls");
+
+        interfaz.mostrarTitulo();
+        interfaz.moverCursor(30, 16);
+
         if (eliminar) {
             if (_mascotaArchivo.eliminar(numeroMascota)) {
-                cout << "¡La mascota se elimino correctamente!" << endl;
+                interfaz.moverCursor(30, 17);
+                cout << "La mascota se elimino correctamente!" << endl;
             } else {
-                cout << "La mascota no se pudo eliminar..." << endl;
+                interfaz.moverCursor(30, 17);
+                cout << "La mascota no se pudo eliminar." << endl;
             }
         } else {
+            interfaz.moverCursor(30, 17);
             cout << "La mascota no se elimino." << endl;
         }
     } else {
-        cout << "La mascota no existe..." << endl;
+        interfaz.moverCursor(30, 17);
+        cout << "La mascota no esta registrada." << endl;
     }
 }
 
 void MascotaManager::modificarFechaNacimiento() {
+    Interfaz interfaz;
+
     int numeroMascota, index;
     Mascota mascota;
+
+    interfaz.mostrarTitulo();
+    interfaz.moverCursor(30, 16);
 
     cout << "Ingrese el numero de mascota que desea modificar: ";
     cin >> numeroMascota;
 
     index = _mascotaArchivo.buscar(numeroMascota);
+
 
     if (index != -1) {
         mascota = _mascotaArchivo.leer(index);
@@ -163,6 +219,12 @@ void MascotaManager::modificarFechaNacimiento() {
         cout << "¿Desea modificar la fecha de nacimiento? [1-SI] || [0-NO]: ";
         int confirmacion;
         cin >> confirmacion;
+
+        system("cls");
+
+        interfaz.mostrarTitulo();
+        interfaz.moverCursor(30, 16);
+
 
         if (confirmacion == 1) {
             Fecha nuevaFecha;
@@ -178,12 +240,15 @@ void MascotaManager::modificarFechaNacimiento() {
             // Sobreescribir el registro con la nueva fecha
             _mascotaArchivo.guardar(index, mascota);
 
-            cout << "¡La fecha de nacimiento se modifico correctamente!" << endl;
+            interfaz.moverCursor(30, 16);                                           ///Falta acomodar la linea en la que aparece por pantalla 244-251
+            cout << "El cliente no esta registrado." <<endl;
+
+            cout << "La fecha de nacimiento se modifico correctamente!" << endl;
         } else {
             cout << "No se modifico la fecha de nacimiento." << endl;
         }
     } else {
-        cout << "La mascota no existe." << endl;
+        cout << "La mascota no esta registrada." << endl;
     }
 }
 
@@ -245,7 +310,9 @@ void MascotaManager::menu() {
                 break;
             default:
                 system("cls");
+                menu();
                 break;
         }
+        system("pause");
     } while (opcion != 0);
 }
