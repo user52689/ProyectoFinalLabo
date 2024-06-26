@@ -11,9 +11,8 @@ Fecha::Fecha(int dia, int mes, int anio){
         _anio = anio;
     }
     else{
-        _dia = 1;
-        _mes = 1;
-        _anio = 1900;
+        cout<<"La fecha no es valida!"<<endl;
+        ///Falta hacer la validacion desde el menu para que cuando la fecha ingresada no sea valida, vuelva a pedir el ingreso de datos de la fecha
     }
 }
 Fecha::Fecha() {

@@ -2,7 +2,6 @@
 #include <string>
 #include <cstdlib>
 #include <cstring>
-#include "Interfaz.h"
 #include "Persona.h"
 #include "Funciones.h"
 
@@ -74,25 +73,20 @@ void Persona::setEstado(bool estado) {
 
 void Persona::cargar() {
     string nombre, telefono, email, direccion;
-    Interfaz interfaz;
 
     cin.ignore();
-    interfaz.mostrarTitulo();
-    interfaz.moverCursor(30, 16);
     cout << "Ingrese nombre: ";
     getline(cin, nombre);
     setNombre(nombre);
 
-    interfaz.moverCursor(30, 17);
     cout << "Ingrese telefono: ";
     getline(cin, telefono);
     setTelefono(telefono);
 
-    interfaz.moverCursor(30, 18);
     cout << "Ingrese email: ";
     getline(cin, email);
     setEmail(email);
-    interfaz.moverCursor(30, 19);
+
     cout << "Ingrese direccion: ";
     getline(cin, direccion);
     setDireccion(direccion);
@@ -101,17 +95,9 @@ void Persona::cargar() {
 }
 
 void Persona::mostrar() {
-    Interfaz interfaz;
-
-    interfaz.mostrarTitulo();
-    interfaz.moverCursor(30, 16);
     cout<<"Nombre: " << _nombre << endl;
-    interfaz.moverCursor(30, 17);
     cout<<"Telefono: " << _telefono << endl;
-    interfaz.moverCursor(30, 18);
     cout<<"Email: " << _email << endl;
-    interfaz.moverCursor(30, 19);
     cout<<"Direccion: " << _direccion << endl;
-    interfaz.moverCursor(30, 20);
     cout<<"Estado: " << (_estado ? "Activo" : "Inactivo") << endl;
 }

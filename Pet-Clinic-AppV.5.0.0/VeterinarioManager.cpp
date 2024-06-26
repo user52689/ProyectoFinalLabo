@@ -12,15 +12,11 @@ using namespace std;
 
 void VeterinarioManager::cargarVeterinario() {
     int legajo;
-    Interfaz interfaz;
 
     VeterinarioArchivo veterinarioArchivo;
 
     int cantidadRegistros = veterinarioArchivo.getCantidadRegistros(); // Asignacion automatica del numero de legajo
     legajo = cantidadRegistros + 1;
-
-    interfaz.mostrarTitulo();
-    interfaz.moverCursor(30, 16);
 
     cout << "Numero de Legajo: " << legajo << endl;
 
@@ -32,21 +28,14 @@ void VeterinarioManager::cargarVeterinario() {
     Veterinario veterinario(legajo, persona.getNombre(), persona.getTelefono(), persona.getEmail(), persona.getDireccion(), fechaHora, persona.getEstado());
 
     if (veterinarioArchivo.guardar(veterinario)) {
-        interfaz.moverCursor(30, 17);
-        cout << "Veterinario guardado con exito!" << endl;
+        cout << "Veterinario guardado con exito!!" << endl;
     } else {
-        interfaz.moverCursor(30, 17);
-        cout << "No se pudo guardar el veterinario." << endl;
+        cout << "No se pudo guardar el veterinario :(" << endl;
     }
 }
 void VeterinarioManager::buscarVeterinario() {
-    Interfaz interfaz;
-
     int index, legajo;
     Veterinario veterinario;
-
-    interfaz.mostrarTitulo();
-    interfaz.moverCursor(30, 16);
 
     cout << "Ingrese el legajo del veterinario a buscar: ";
     cin >> legajo;
@@ -60,23 +49,16 @@ void VeterinarioManager::buscarVeterinario() {
         if (veterinario.getEstado()) {
             mostrar(veterinario);
         } else {
-            interfaz.moverCursor(30, 17);
-            cout << "El veterinario no esta registrado." << endl;
+            cout << "El veterinario esta desactivado" << endl;
         }
     } else {
-        interfaz.moverCursor(30, 17);
-        cout << "El veterinario no se encuentra." << endl;
+        cout << "El veterinario no se encuentra :(" << endl;
     }
 }
 
 void VeterinarioManager::listarVeterinarios() {
-    Interfaz interfaz;
-
     VeterinarioArchivo veterinarioArchivo;
     int cantidad = veterinarioArchivo.getCantidadRegistros();
-
-    interfaz.mostrarTitulo();
-    interfaz.moverCursor(30, 16);
 
     for (int i = 0; i < cantidad; i++) {
         Veterinario veterinario = veterinarioArchivo.leer(i);
@@ -85,39 +67,22 @@ void VeterinarioManager::listarVeterinarios() {
 }
 
 void VeterinarioManager::mostrar(Veterinario veterinario) {
-    Interfaz interfaz;
-
     if (veterinario.getEstado()) {
-        interfaz.mostrarTitulo();
-        interfaz.moverCursor(30, 16);
         cout << "Legajo de Veterinario: " << veterinario.getLegajo() << endl;
-        interfaz.moverCursor(30, 17);
         cout << "Nombre: " << veterinario.getNombre() << endl;
-        interfaz.moverCursor(30, 18);
         cout << "Telefono: " << veterinario.getTelefono() << endl;
-        interfaz.moverCursor(30, 19);
         cout << "Email: " << veterinario.getEmail() << endl;
-        interfaz.moverCursor(30, 20);
         cout << "Direccion: " << veterinario.getDireccion() << endl;
-        interfaz.moverCursor(30, 21);
         cout << "Fecha y Hora: " << veterinario.getFechaHora().mostrarFechaHora() << endl;
-        interfaz.moverCursor(30, 22);
         cout << "Estado: " << (veterinario.getEstado() ? "Activo" : "Inactivo") << endl;
-        interfaz.moverCursor(30, 23);
         cout << "-------------------------------" << endl;
     } else {
-        interfaz.moverCursor(30, 16);
-        cout << "El veterinario no esta registrado." << endl;
+        cout << "El veterinario esta inactivo" << endl;
     }
 }
 
 void VeterinarioManager::eliminarVeterinario() {
-    Interfaz interfaz;
-
     int legajo, index;
-
-    interfaz.mostrarTitulo();
-    interfaz.moverCursor(30, 16);
 
     cout << "Ingrese el numero de legajo del veterinario que quiere eliminar: ";
     cin >> legajo;
@@ -132,36 +97,26 @@ void VeterinarioManager::eliminarVeterinario() {
 
         mostrar(veterinario);
 
-        interfaz.moverCursor(30, 17);
         cout << "Esta seguro que quiere eliminar el veterinario? [1-SI] || [0-NO] ";
         cin >> eliminar;
 
         if (eliminar) {
             if (veterinarioArchivo.eliminar(legajo)) {
-                interfaz.moverCursor(30, 17);
                 cout << "El veterinario se elimino correctamente!" << endl;
             } else {
-                interfaz.moverCursor(30, 17);
-                cout << "El veterinario no se pudo eliminar." << endl;
+                cout << "El veterinario no se pudo eliminar..." << endl;
             }
         } else {
-            interfaz.moverCursor(30, 17);
             cout << "El veterinario no se elimino." << endl;
         }
     } else {
-        interfaz.moverCursor(30, 17);
-        cout << "El veterinario no esta registrado." << endl;
+        cout << "El veterinario no existe..." << endl;
     }
 }
 
 void VeterinarioManager::modificarTelefono() {
-    Interfaz interfaz;
-
     int legajo, index;
     Veterinario veterinario;
-
-    interfaz.mostrarTitulo();
-    interfaz.moverCursor(30, 16);
 
     cout << "Ingrese el legajo del veterinario que desea modificar: ";
     cin >> legajo;
@@ -173,35 +128,27 @@ void VeterinarioManager::modificarTelefono() {
         veterinario = veterinarioArchivo.leer(index);
         mostrar(veterinario);
 
-        interfaz.moverCursor(30, 17);
         cout << "Desea modificar el Telefono? [1-SI] || [0-NO]: ";
         int confirmacion;
         cin >> confirmacion;
 
         if (confirmacion == 1) {
             string telefono;
-            system("cls");
 
-            interfaz.mostrarTitulo();
-            interfaz.moverCursor(30, 16);
             cout << "Ingrese el nuevo telefono: ";
             getline(cin, telefono);
 
             veterinario.setTelefono(telefono.c_str());
 
             if (veterinarioArchivo.guardar(index, veterinario)) {
-                interfaz.moverCursor(30, 16);
                 cout << " El Legajo se modifico correctamente!" << endl;
             } else {
-                interfaz.moverCursor(30, 16);
-                cout << "No se pudo modificar el legajo." << endl;
+                cout << "No se pudo modificar el legajo..." << endl;
             }
         } else {
-            interfaz.moverCursor(30, 16);
             cout << "No se modifico el legajo." << endl;
         }
     } else {
-        interfaz.moverCursor(30, 16);
         cout << "El veterinario no existe." << endl;
     }
 }
@@ -260,13 +207,10 @@ void VeterinarioManager::menu() {
                 break;
             case 0:
                 system("cls");
-
                 break;
             default:
                 system("cls");
-                menu();
                 break;
         }
-        system("pause");
     } while (opcion != 0);
 }
