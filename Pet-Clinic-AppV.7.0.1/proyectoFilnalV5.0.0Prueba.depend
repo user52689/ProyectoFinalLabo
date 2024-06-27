@@ -1,0 +1,1379 @@
+# depslib dependency file v1.0
+1715544914 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\archivo.cpp
+	"Archivo.h"
+
+1717990387 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\archivo.h
+	<string>
+	<cstdio>
+
+1718062816 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\cliente.cpp
+	<iostream>
+	"Cliente.h"
+
+1718054287 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\cliente.h
+	"Persona.h"
+
+1718071809 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\persona.h
+	<string>
+
+1718076706 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\appmanager.cpp
+	<string>
+	<iostream>
+	<cstring>
+	"AppManager.h"
+	"Interfaz.h"
+
+1718027541 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\appmanager.h
+	"ClienteManager.h"
+
+1718054365 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\clientemanager.h
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1718029098 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\clientearchivo.h
+	"Cliente.h"
+	"Archivo.h"
+
+1718071809 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\clientearchivo.cpp
+	"ClienteArchivo.h"
+
+1718076200 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\interfaz.cpp
+	"Interfaz.h"
+	"rlutil.h"
+
+1718076200 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\interfaz.h
+	<iostream>
+	<string>
+	"rlutil.h"
+
+1697412268 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1718074257 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\main.cpp
+	<iostream>
+	"Interfaz.h"
+	"AppManager.h"
+
+1718060559 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\persona.cpp
+	<iostream>
+	<string>
+	<iostream>
+	<cstdlib>
+	"Persona.h"
+
+1718071809 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\pruebas\prueba clase fecha modificacion horas\proyectofilnalv5.0.0prueba\clientemanager.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"ClienteManager.h"
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1718115975 source:c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\appmanager.cpp
+	<string>
+	<iostream>
+	<cstring>
+	"AppManager.h"
+	"Interfaz.h"
+
+1718115975 c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\appmanager.h
+	"ClienteManager.h"
+
+1718115975 c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\clientemanager.h
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1718125364 c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\cliente.h
+	"Persona.h"
+
+1718123229 c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\persona.h
+	<string>
+
+1718115975 c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\clientearchivo.h
+	"Cliente.h"
+	"Archivo.h"
+
+1718115975 c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\archivo.h
+	<string>
+	<cstdio>
+
+1718115975 c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\interfaz.h
+	<iostream>
+	<string>
+	"rlutil.h"
+
+1718115975 c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1718115975 source:c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\archivo.cpp
+	"Archivo.h"
+
+1718126140 source:c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\cliente.cpp
+	<iostream>
+	"Cliente.h"
+
+1718120096 source:c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\clientearchivo.cpp
+	"ClienteArchivo.h"
+
+1718125823 source:c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\clientemanager.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"ClienteManager.h"
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1718115975 source:c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\interfaz.cpp
+	"Interfaz.h"
+	"rlutil.h"
+
+1718115975 source:c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\main.cpp
+	<iostream>
+	"Interfaz.h"
+	"AppManager.h"
+
+1718126623 source:c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\persona.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<cstring>
+	"Persona.h"
+	"Funciones.h"
+
+1718126140 c:\users\princ\onedrive\desktop\proyectofinallabo-main\bug_cargar&mostrar\funciones.h
+
+1718115975 source:c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\appmanager.cpp
+	<string>
+	<iostream>
+	<cstring>
+	"AppManager.h"
+	"Interfaz.h"
+
+1718159736 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\appmanager.h
+	"MascotaManager.h"
+	"ClienteManager.h"
+
+1718115975 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\clientemanager.h
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1718125364 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\cliente.h
+	"Persona.h"
+
+1718123229 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\persona.h
+	<string>
+
+1718115975 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\clientearchivo.h
+	"Cliente.h"
+	"Archivo.h"
+
+1718159736 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\archivo.h
+	<string>
+	<cstdio>
+
+1718115975 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\interfaz.h
+	<iostream>
+	<string>
+	"rlutil.h"
+
+1718115975 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1718115975 source:c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\archivo.cpp
+	"Archivo.h"
+
+1718126140 source:c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\cliente.cpp
+	<iostream>
+	"Cliente.h"
+
+1718120096 source:c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\clientearchivo.cpp
+	"ClienteArchivo.h"
+
+1718154713 source:c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\clientemanager.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"ClienteManager.h"
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1718115975 source:c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\interfaz.cpp
+	"Interfaz.h"
+	"rlutil.h"
+
+1718115975 source:c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\main.cpp
+	<iostream>
+	"Interfaz.h"
+	"AppManager.h"
+
+1718150179 source:c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\funciones.cpp
+	<iostream>
+
+1718126623 source:c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\persona.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<cstring>
+	"Persona.h"
+	"Funciones.h"
+
+1718126140 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\funciones.h
+
+1717898685 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\mascotamanager.h
+	"Mascota.h"
+	"MascotaArchivo.h"
+
+1718159831 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\mascota.h
+	"Fecha.h"
+	<string>
+
+1717909844 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\mascotaarchivo.h
+	"Mascota.h"
+	"Archivo.h"
+
+1718115975 c:\users\alici\downloads\proyectofinallabo-main\bug_cargar&mostrar\fecha.h
+	<iostream>
+	<ctime>
+
+1718203942 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\archivo.cpp
+	"Archivo.h"
+
+1718203942 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\archivo.h
+	<string>
+	<cstdio>
+
+1718203942 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\cliente.cpp
+	<iostream>
+	"Cliente.h"
+
+1718203942 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\cliente.h
+	"Persona.h"
+
+1718203942 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\persona.h
+	<string>
+
+1718203942 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\clientearchivo.cpp
+	"ClienteArchivo.h"
+
+1718203942 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\clientearchivo.h
+	"Cliente.h"
+	"Archivo.h"
+
+1718203942 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\clientemanager.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"ClienteManager.h"
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1718203942 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\clientemanager.h
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1718206792 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\consultas.cpp
+	<cstring>
+	"Consultas.h"
+
+1718206812 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\consultas.h
+	"FechaHora.h"
+
+1718208835 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\fecha.cpp
+	<iostream>
+	<string>
+	"Fecha.h"
+
+1718208818 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\fecha.h
+	<iostream>
+	<ctime>
+
+1718206734 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\fechahora.cpp
+	<iostream>
+	"FechaHora.h"
+
+1718206766 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\fechahora.h
+	<string>
+	"Fecha.h"
+	"Hora.h"
+
+1718209282 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\hora.h
+	<iostream>
+	<ctime>
+	<string>
+
+1718203942 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\funciones.cpp
+	<iostream>
+
+1718209277 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\hora.cpp
+	<iostream>
+	<string>
+	"Hora.h"
+
+1718203942 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\interfaz.cpp
+	"Interfaz.h"
+	"rlutil.h"
+
+1718203942 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\interfaz.h
+	<iostream>
+	<string>
+	"rlutil.h"
+
+1718203942 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1718203942 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\mascotaarchivo.cpp
+	"MascotaArchivo.h"
+
+1718203942 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\mascotaarchivo.h
+	"Mascota.h"
+	"Archivo.h"
+
+1718203942 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\mascota.h
+	"Fecha.h"
+	<string>
+
+1718203942 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\persona.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<cstring>
+	"Persona.h"
+	"Funciones.h"
+
+1718203942 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\funciones.h
+
+1718203942 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\veterinario.cpp
+	"Veterinario.h"
+
+1718203942 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\veterinario.h
+	"Persona.h"
+
+1718206698 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\configuracion.cpp
+	<iostream>
+	"Configuracion.h"
+	"Mascota.h"
+	"Cliente.h"
+	"Veterinario.h"
+	"Consultas.h"
+
+1718204107 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\configuracion.h
+
+1718206480 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\mascota.cpp
+	"Mascota.h"
+	<string>
+	<cstring>
+
+1718207650 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\main.cpp
+	<iostream>
+	"Interfaz.h"
+	"AppManager.h"
+
+1718203942 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\appmanager.h
+	"MascotaManager.h"
+	"ClienteManager.h"
+
+1718208378 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\mascotamanager.h
+	"Mascota.h"
+	"MascotaArchivo.h"
+
+1718208517 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\mascotamanager.cpp
+	<string>
+	<cstdlib>
+	<iostream>
+	"MascotaManager.h"
+	"Mascota.h"
+	"MascotaArchivo.h"
+	"ClienteArchivo.h"
+
+1718208584 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.3.0.0\appmanager.cpp
+	<string>
+	<iostream>
+	<cstring>
+	"AppManager.h"
+	"Interfaz.h"
+	"Configuracion.h"
+
+1718410867 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\archivo.cpp
+	"Archivo.h"
+
+1718410867 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\archivo.h
+	<string>
+	<cstdio>
+
+1718410867 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\cliente.cpp
+	<iostream>
+	"Cliente.h"
+
+1718410867 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\cliente.h
+	"Persona.h"
+
+1718410867 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\persona.h
+	<string>
+
+1718410867 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\clientearchivo.cpp
+	"ClienteArchivo.h"
+
+1718410867 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\clientearchivo.h
+	"Cliente.h"
+	"Archivo.h"
+
+1718426040 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\clientemanager.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"ClienteManager.h"
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1718410867 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\clientemanager.h
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1718410867 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\configuracion.cpp
+	<iostream>
+	"Configuracion.h"
+	"Mascota.h"
+	"Cliente.h"
+	"Veterinario.h"
+	"Consultas.h"
+
+1718410867 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\configuracion.h
+
+1718410867 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\mascota.h
+	"Fecha.h"
+	<string>
+
+1718410867 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\fecha.h
+	<iostream>
+	<ctime>
+
+1718426040 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\veterinario.h
+	"Persona.h"
+	"Hora.h"
+
+1718410867 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\consultas.h
+	"FechaHora.h"
+
+1718410867 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\fechahora.h
+	<string>
+	"Fecha.h"
+	"Hora.h"
+
+1718410867 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\hora.h
+	<iostream>
+	<ctime>
+	<string>
+
+1718410867 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\consultas.cpp
+	<cstring>
+	"Consultas.h"
+
+1718410867 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\fecha.cpp
+	<iostream>
+	<string>
+	"Fecha.h"
+
+1718427593 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\fechahora.cpp
+	<iostream>
+	"FechaHora.h"
+
+1718410867 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\funciones.cpp
+	<iostream>
+
+1718410867 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\hora.cpp
+	<iostream>
+	<string>
+	"Hora.h"
+
+1718410867 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\interfaz.cpp
+	"Interfaz.h"
+	"rlutil.h"
+
+1718410867 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\interfaz.h
+	<iostream>
+	<string>
+	"rlutil.h"
+
+1718410867 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1718410867 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\main.cpp
+	<iostream>
+	"Interfaz.h"
+	"AppManager.h"
+
+1718426107 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\appmanager.h
+	"MascotaManager.h"
+	"ClienteManager.h"
+	"VeterinarioManager.h"
+
+1718410867 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\mascotamanager.h
+	"Mascota.h"
+	"MascotaArchivo.h"
+
+1718410867 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\mascotaarchivo.h
+	"Mascota.h"
+	"Archivo.h"
+
+1718410867 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\mascota.cpp
+	"Mascota.h"
+	<string>
+	<cstring>
+
+1718410867 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\mascotaarchivo.cpp
+	"MascotaArchivo.h"
+
+1718410867 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\mascotamanager.cpp
+	<string>
+	<cstdlib>
+	<iostream>
+	"MascotaManager.h"
+	"Mascota.h"
+	"MascotaArchivo.h"
+	"ClienteArchivo.h"
+
+1718410867 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\persona.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<cstring>
+	"Persona.h"
+	"Funciones.h"
+
+1718410867 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\funciones.h
+
+1718426040 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\veterinario.cpp
+	<iostream>
+	"Veterinario.h"
+
+1718426107 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\appmanager.cpp
+	<string>
+	<iostream>
+	<cstring>
+	"AppManager.h"
+	"Interfaz.h"
+	"Configuracion.h"
+
+1718426040 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\veterinariomanager.h
+	"Veterinario.h"
+	"VeterinarioArchivo.h"
+
+1718426040 c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\veterinarioarchivo.h
+	"Veterinario.h"
+	"Archivo.h"
+
+1718426040 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\veterinarioarchivo.cpp
+	"VeterinarioArchivo.h"
+
+1718427334 source:c:\users\alici\onedrive - frgp.utn.edu.ar\utn\tercer cuatrimestre\propios\laboratorio ii\proyecto final labo\versiones oficiales\git\proyectofinallabo\pet-clinic-appv.3.0.1\veterinariomanager.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"VeterinarioManager.h"
+	"Veterinario.h"
+	"VeterinarioArchivo.h"
+
+1719324249 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\appmanager.cpp
+	<string>
+	<iostream>
+	<cstring>
+	"AppManager.h"
+	"Interfaz.h"
+	"Configuracion.h"
+	"Reporte.h"
+
+1719003572 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\appmanager.h
+	"MascotaManager.h"
+	"ClienteManager.h"
+	"ConsultasManager.h"
+	"VeterinarioManager.h"
+
+1719007193 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\mascotamanager.h
+	"Mascota.h"
+	"MascotaArchivo.h"
+
+1719004281 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\mascota.h
+	<string>
+	"FechaHora.h"
+
+1719002645 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\fecha.h
+	<iostream>
+	<ctime>
+
+1719002590 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\mascotaarchivo.h
+	"Mascota.h"
+	"Archivo.h"
+
+1719002706 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\archivo.h
+	<string>
+	<cstdio>
+
+1719007203 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\clientemanager.h
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1718997573 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\cliente.h
+	"Persona.h"
+
+1718997770 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\persona.h
+	<string>
+
+1719001148 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\clientearchivo.h
+	"Cliente.h"
+	"Archivo.h"
+
+1719007189 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\veterinariomanager.h
+	"Veterinario.h"
+	"VeterinarioArchivo.h"
+
+1719002576 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\veterinario.h
+	"Persona.h"
+	"FechaHora.h"
+
+1719002618 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\hora.h
+	<iostream>
+	<ctime>
+	<string>
+
+1718981103 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\veterinarioarchivo.h
+	"Veterinario.h"
+	"Archivo.h"
+
+1719320945 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\interfaz.h
+	<iostream>
+	<string>
+	"rlutil.h"
+
+1718981103 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1719321200 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\configuracion.h
+
+1718981103 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\archivo.cpp
+	"Archivo.h"
+
+1718981103 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\cliente.cpp
+	<iostream>
+	"Cliente.h"
+
+1719001617 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\clientearchivo.cpp
+	"ClienteArchivo.h"
+
+1719330204 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\clientemanager.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"Interfaz.h"
+	"ClienteManager.h"
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1719005524 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\configuracion.cpp
+	<iostream>
+	"Configuracion.h"
+	"Mascota.h"
+	"Cliente.h"
+	"Veterinario.h"
+	"Consultas.h"
+
+1719005947 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\consultas.h
+	"FechaHora.h"
+
+1719004178 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\fechahora.h
+	<string>
+	"Fecha.h"
+	"Hora.h"
+
+1719005959 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\consultas.cpp
+	<cstring>
+	"Consultas.h"
+
+1719058986 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\fecha.cpp
+	<iostream>
+	<string>
+	"Fecha.h"
+
+1719004190 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\fechahora.cpp
+	<iostream>
+	"FechaHora.h"
+
+1718981103 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\funciones.cpp
+	<iostream>
+
+1718981103 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\hora.cpp
+	<iostream>
+	<string>
+	"Hora.h"
+
+1719320946 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\interfaz.cpp
+	"Interfaz.h"
+	"rlutil.h"
+
+1719007941 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\main.cpp
+	<iostream>
+	"Interfaz.h"
+	"AppManager.h"
+
+1719004046 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\mascota.cpp
+	"Mascota.h"
+	<string>
+	<cstring>
+	"FechaHora.h"
+
+1719002935 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\mascotaarchivo.cpp
+	"MascotaArchivo.h"
+
+1719057975 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\persona.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<cstring>
+	"Interfaz.h"
+	"Persona.h"
+	"Funciones.h"
+
+1718981103 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\funciones.h
+
+1719002796 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\veterinario.cpp
+	<iostream>
+	"Veterinario.h"
+	"FechaHora.h"
+
+1718997863 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\veterinarioarchivo.cpp
+	"VeterinarioArchivo.h"
+
+1719330244 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\veterinariomanager.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	<cstring>
+	"Interfaz.h"
+	"VeterinarioManager.h"
+	"Veterinario.h"
+	"VeterinarioArchivo.h"
+	"FechaHora.h"
+
+1719330160 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\mascotamanager.cpp
+	<string>
+	<cstdlib>
+	<iostream>
+	"Interfaz.h"
+	"MascotaManager.h"
+	"Mascota.h"
+	"MascotaArchivo.h"
+	"ClienteArchivo.h"
+
+1719330175 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\consultasmanager.cpp
+	<iostream>
+	"Interfaz.h"
+	"ConsultasManager.h"
+	"ConsultasArchivo.h"
+
+1719004783 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\consultasarchivo.cpp
+	<iostream>
+	"ConsultasArchivo.h"
+
+1719004811 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\consultasarchivo.h
+	"Archivo.h"
+	"Consultas.h"
+
+1719005229 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\consultasmanager.h
+	"Consultas.h"
+	"ConsultasArchivo.h"
+
+1719323120 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\reportemanager.h
+
+1719322773 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\reporte.cpp
+	<iostream>
+	<cstring>
+	<string>
+	"Reporte.h"
+
+1719323415 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\reporte.h
+
+1719330388 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\reportemanager.cpp
+	<iostream>
+	"Interfaz.h"
+	"Reporte.h"
+	"ReporteManager.h"
+	"ReporteArchivo.h"
+	"AppManager.h"
+
+1719323273 source:c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\reportearchivo.cpp
+	<iostream>
+	"Reporte.h"
+	"ReporteArchivo.h"
+	"Consultas.h"
+	"ConsultasArchivo.h"
+	"Veterinario.h"
+	"VeterinarioArchivo.h"
+	"Mascota.h"
+	"MascotaArchivo.h"
+
+1719323286 c:\users\princ\onedrive\desktop\final labo ii\proyectofinallabo\pet-clinic-appv.5.0.0\reportearchivo.h
+
+1719448663 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\appmanager.cpp
+	<string>
+	<iostream>
+	<cstring>
+	"AppManager.h"
+	"Interfaz.h"
+	"Configuracion.h"
+	"Reporte.h"
+	"ReporteManager.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\appmanager.h
+	"MascotaManager.h"
+	"ClienteManager.h"
+	"ConsultasManager.h"
+	"VeterinarioManager.h"
+
+1719360680 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\mascotamanager.h
+	"Mascota.h"
+	"MascotaArchivo.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\mascota.h
+	<string>
+	"FechaHora.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\fechahora.h
+	<string>
+	"Fecha.h"
+	"Hora.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\fecha.h
+	<iostream>
+	<ctime>
+
+1719450351 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\hora.h
+	<iostream>
+	<ctime>
+	<string>
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\mascotaarchivo.h
+	"Mascota.h"
+	"Archivo.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\archivo.h
+	<string>
+	<cstdio>
+
+1719375042 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\clientemanager.h
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\cliente.h
+	"Persona.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\persona.h
+	<string>
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\clientearchivo.h
+	"Cliente.h"
+	"Archivo.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\consultasmanager.h
+	"Consultas.h"
+	"ConsultasArchivo.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\consultas.h
+	"FechaHora.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\consultasarchivo.h
+	"Archivo.h"
+	"Consultas.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\veterinariomanager.h
+	"Veterinario.h"
+	"VeterinarioArchivo.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\veterinario.h
+	"Persona.h"
+	"FechaHora.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\veterinarioarchivo.h
+	"Veterinario.h"
+	"Archivo.h"
+
+1719438420 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\interfaz.h
+	<iostream>
+	<string>
+	"rlutil.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\configuracion.h
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\reporte.h
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\archivo.cpp
+	"Archivo.h"
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\cliente.cpp
+	<iostream>
+	"Cliente.h"
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\clientearchivo.cpp
+	"ClienteArchivo.h"
+
+1719450351 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\clientemanager.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"Interfaz.h"
+	"ClienteManager.h"
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\configuracion.cpp
+	<iostream>
+	"Configuracion.h"
+	"Mascota.h"
+	"Cliente.h"
+	"Veterinario.h"
+	"Consultas.h"
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\consultas.cpp
+	<cstring>
+	"Consultas.h"
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\consultasarchivo.cpp
+	<iostream>
+	"ConsultasArchivo.h"
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\consultasmanager.cpp
+	<iostream>
+	"Interfaz.h"
+	"ConsultasManager.h"
+	"ConsultasArchivo.h"
+
+1719367690 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\fecha.cpp
+	<iostream>
+	<string>
+	"Fecha.h"
+	"Interfaz.h"
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\fechahora.cpp
+	<iostream>
+	"FechaHora.h"
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\hora.cpp
+	<iostream>
+	<string>
+	"Hora.h"
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\mascota.cpp
+	"Mascota.h"
+	<string>
+	<cstring>
+	"FechaHora.h"
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\mascotaarchivo.cpp
+	"MascotaArchivo.h"
+
+1719375020 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\mascotamanager.cpp
+	<string>
+	<cstdlib>
+	<iostream>
+	"Interfaz.h"
+	"MascotaManager.h"
+	"Mascota.h"
+	"MascotaArchivo.h"
+	"ClienteArchivo.h"
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\persona.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<cstring>
+	"Interfaz.h"
+	"Persona.h"
+	"Funciones.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\funciones.h
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\reporte.cpp
+	<iostream>
+	<cstring>
+	<string>
+	"Reporte.h"
+
+1719442578 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\reportearchivo.cpp
+	<iostream>
+	"Interfaz.h"
+	"Reporte.h"
+	"ReporteArchivo.h"
+	"Consultas.h"
+	"ConsultasArchivo.h"
+	"Veterinario.h"
+	"VeterinarioArchivo.h"
+	"Mascota.h"
+	"MascotaArchivo.h"
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1719442579 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\reportearchivo.h
+
+1719442579 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\reportemanager.cpp
+	<iostream>
+	"Interfaz.h"
+	"Reporte.h"
+	"ReporteManager.h"
+	"ReporteArchivo.h"
+	"AppManager.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\reportemanager.h
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\veterinario.cpp
+	<iostream>
+	"Veterinario.h"
+	"FechaHora.h"
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\veterinarioarchivo.cpp
+	"VeterinarioArchivo.h"
+
+1719370720 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\veterinariomanager.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	<cstring>
+	"Interfaz.h"
+	"VeterinarioManager.h"
+	"Veterinario.h"
+	"VeterinarioArchivo.h"
+	"FechaHora.h"
+
+1719363551 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\main.cpp
+	<iostream>
+	"Interfaz.h"
+	"AppManager.h"
+
+1719445439 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.5.0.0\interfaz.cpp
+	"Interfaz.h"
+	"rlutil.h"
+
+1719448663 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\appmanager.cpp
+	<string>
+	<iostream>
+	<cstring>
+	"AppManager.h"
+	"Interfaz.h"
+	"Configuracion.h"
+	"Reporte.h"
+	"ReporteManager.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\appmanager.h
+	"MascotaManager.h"
+	"ClienteManager.h"
+	"ConsultasManager.h"
+	"VeterinarioManager.h"
+
+1719360680 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\mascotamanager.h
+	"Mascota.h"
+	"MascotaArchivo.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\mascota.h
+	<string>
+	"FechaHora.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\fechahora.h
+	<string>
+	"Fecha.h"
+	"Hora.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\fecha.h
+	<iostream>
+	<ctime>
+
+1719450351 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\hora.h
+	<iostream>
+	<ctime>
+	<string>
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\mascotaarchivo.h
+	"Mascota.h"
+	"Archivo.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\archivo.h
+	<string>
+	<cstdio>
+
+1719375042 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\clientemanager.h
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\cliente.h
+	"Persona.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\persona.h
+	<string>
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\clientearchivo.h
+	"Cliente.h"
+	"Archivo.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\consultasmanager.h
+	"Consultas.h"
+	"ConsultasArchivo.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\consultas.h
+	"FechaHora.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\consultasarchivo.h
+	"Archivo.h"
+	"Consultas.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\veterinariomanager.h
+	"Veterinario.h"
+	"VeterinarioArchivo.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\veterinario.h
+	"Persona.h"
+	"FechaHora.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\veterinarioarchivo.h
+	"Veterinario.h"
+	"Archivo.h"
+
+1719438420 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\interfaz.h
+	<iostream>
+	<string>
+	"rlutil.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\configuracion.h
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\reporte.h
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\reportemanager.h
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\archivo.cpp
+	"Archivo.h"
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\cliente.cpp
+	<iostream>
+	"Cliente.h"
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\clientearchivo.cpp
+	"ClienteArchivo.h"
+
+1719450351 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\clientemanager.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	"Interfaz.h"
+	"ClienteManager.h"
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\configuracion.cpp
+	<iostream>
+	"Configuracion.h"
+	"Mascota.h"
+	"Cliente.h"
+	"Veterinario.h"
+	"Consultas.h"
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\consultas.cpp
+	<cstring>
+	"Consultas.h"
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\consultasarchivo.cpp
+	<iostream>
+	"ConsultasArchivo.h"
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\consultasmanager.cpp
+	<iostream>
+	"Interfaz.h"
+	"ConsultasManager.h"
+	"ConsultasArchivo.h"
+
+1719367690 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\fecha.cpp
+	<iostream>
+	<string>
+	"Fecha.h"
+	"Interfaz.h"
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\fechahora.cpp
+	<iostream>
+	"FechaHora.h"
+
+1719445439 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\interfaz.cpp
+	"Interfaz.h"
+	"rlutil.h"
+
+1719363551 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\main.cpp
+	<iostream>
+	"Interfaz.h"
+	"AppManager.h"
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\mascota.cpp
+	"Mascota.h"
+	<string>
+	<cstring>
+	"FechaHora.h"
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\mascotaarchivo.cpp
+	"MascotaArchivo.h"
+
+1719375020 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\mascotamanager.cpp
+	<string>
+	<cstdlib>
+	<iostream>
+	"Interfaz.h"
+	"MascotaManager.h"
+	"Mascota.h"
+	"MascotaArchivo.h"
+	"ClienteArchivo.h"
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\persona.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<cstring>
+	"Interfaz.h"
+	"Persona.h"
+	"Funciones.h"
+
+1719354197 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\funciones.h
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\reporte.cpp
+	<iostream>
+	<cstring>
+	<string>
+	"Reporte.h"
+
+1719442578 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\reportearchivo.cpp
+	<iostream>
+	"Interfaz.h"
+	"Reporte.h"
+	"ReporteArchivo.h"
+	"Consultas.h"
+	"ConsultasArchivo.h"
+	"Veterinario.h"
+	"VeterinarioArchivo.h"
+	"Mascota.h"
+	"MascotaArchivo.h"
+	"Cliente.h"
+	"ClienteArchivo.h"
+
+1719442579 c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\reportearchivo.h
+
+1719442579 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\reportemanager.cpp
+	<iostream>
+	"Interfaz.h"
+	"Reporte.h"
+	"ReporteManager.h"
+	"ReporteArchivo.h"
+	"AppManager.h"
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\veterinario.cpp
+	<iostream>
+	"Veterinario.h"
+	"FechaHora.h"
+
+1719354197 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\veterinarioarchivo.cpp
+	"VeterinarioArchivo.h"
+
+1719370720 source:c:\users\alici\downloads\carpeta con errores\proyectofinallabo\pet-clinic-appv.7.0.1\veterinariomanager.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	<cstring>
+	"Interfaz.h"
+	"VeterinarioManager.h"
+	"Veterinario.h"
+	"VeterinarioArchivo.h"
+	"FechaHora.h"
+
